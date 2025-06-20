@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://i.pinimg.com/736x/02/25/90/022590f2c705cb6a8b74cce0923bd788.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #00ffcc;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(26, 26, 26, 0.8);
+  border-bottom: 2px solid #ad1f50;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #00ffcc;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #00ffcc;
+}
+
+main {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.games {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.game-card {
+  background-color: rgba(26, 26, 26, 0.8);
+  border: 2px solid #00ffcc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.game-card h2 {
+  font-size: 1.5rem;
+  color: #00ffcc;
+}
+
+.game-card p {
+  font-size: 1rem;
+  color: #00ffcc;
+}
+
